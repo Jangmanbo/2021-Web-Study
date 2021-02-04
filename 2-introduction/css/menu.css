@@ -1,0 +1,38 @@
+@font-face {
+    font-family:"JejuGothic";
+    src:url("font/JejuGothic.ttf")format("truetype");
+    font-style:normal;
+    font-weight:normal;
+    
+}
+
+
+body {
+    background-image: url(../img/backgroud.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    font-size: 25px;
+}
+
+h1 {
+    text-align: center;
+}
+
+table {
+    width:50%;
+    border:2px solid;
+    border-collapse: collapse;
+}
+
+th {
+    text-align: center;
+}
+
+td {
+    cursor:pointer;
+}
+
+th, td {
+    border:1px solid;
+    padding:20px;
+}

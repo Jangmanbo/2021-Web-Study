@@ -1,0 +1,32 @@
+body {
+    background-image: url(../img/backgroud.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin: 0 auto;
+    width : 500px
+}
+.content{
+    text-align: center;
+}
+
+
+input {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width:240px;
+}
+
+#order {
+    background-color: #4CAF50;
+    float:left;
+}
+
+#back {
+    background-color: #FA4926;
+    float:right;
+}
