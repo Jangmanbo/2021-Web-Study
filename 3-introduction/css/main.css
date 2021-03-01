@@ -1,4 +1,10 @@
+@font-face{
+    src : url("../font/BMJUA_ttf.ttf");
+    font-family: "jua"
+}
+
 body {
+    font-family: "jua";
     background-image: url(../img/backgroud.jpg);
     background-repeat: no-repeat;
     background-size:cover;
@@ -28,6 +34,7 @@ header {
     text-align: center;
     padding: 15px;
     cursor: pointer;
+    font-size:20px;
 }
 
 .nav-item a{
